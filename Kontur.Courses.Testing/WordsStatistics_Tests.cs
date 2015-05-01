@@ -4,6 +4,7 @@ using NUnit.Framework;
 
 namespace Kontur.Courses.Testing
 {
+
 	public class WordsStatistics_Tests
 	{
 		public Func<IWordsStatistics> createStat = () => new WordsStatistics_CorrectImplementation(); // меняется на разные реализации при запуске exe
